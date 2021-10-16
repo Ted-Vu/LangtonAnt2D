@@ -27,7 +27,6 @@ public class AppMainFrame extends JFrame {
 	private Board universe;
 	private Ant ant;
 
-	private AppMainFrame appMainFrame;
 
 	/**
 	 * Construct component here

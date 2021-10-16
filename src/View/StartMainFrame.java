@@ -93,7 +93,6 @@ public class StartMainFrame extends JFrame {
 
 				// start in the middle
 				universe.setCellColor(boardSize / 2, boardSize / 2, Color.WHITE);
-
 				ant = new Ant(boardSize / 2, boardSize / 2, initialFacingDirection);
 
 				AppMainFrame appMainFrame = new AppMainFrame(universe, antColor, ant);
@@ -140,7 +139,7 @@ public class StartMainFrame extends JFrame {
 	public void setInitialFacingDirection(Direction initialFacingDirection) {
 		this.initialFacingDirection = initialFacingDirection;
 	}
-	
+
 	public int getBoardSize() {
 		return this.boardSize;
 	}

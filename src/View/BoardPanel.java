@@ -18,8 +18,11 @@ import Model.Board;
 
 public class BoardPanel extends JPanel {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4578361803006239114L;
 	private Board universe;
-	private AppMainFrame mainFrame;
 	private List<List<AbstractButton>> buttons;
 	private Color antColor;
 
@@ -28,7 +31,6 @@ public class BoardPanel extends JPanel {
 		this.universe = universe;
 		setBackground(Color.WHITE);
 
-		this.mainFrame = appMainFrame;
 
 		setBackground(Color.WHITE);
 		ButtonGroup group = new ButtonGroup();

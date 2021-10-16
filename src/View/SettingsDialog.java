@@ -137,7 +137,7 @@ public class SettingsDialog extends JDialog {
 	 * @see String[] numPieceMenu
 	 */
 	public Direction getAntInitialFacingDirection() {
-		int selectedIndex = boardSizeMenu.getSelectedIndex();
+		int selectedIndex = antFacingMenu.getSelectedIndex();
 
 		if (selectedIndex == 0) {
 			return Direction.NORTH;
